@@ -21,9 +21,9 @@ app.use("/api/products/get", productRoute);
 
 mongoose.connect("mongodb://127.0.0.1:27017")
      .then(() => {
-          console.log("✅ Connected to MongoDB jaah moj kar ");
+          console.log(" Connected to MongoDB ");
           app.listen(3000, () => {
                console.log("running at server 3000");
           });
      })
-     .catch(err => console.error("❌ Connection failed ", err.message));
+     .catch(err => console.error(" Connection failed ", err.message));
