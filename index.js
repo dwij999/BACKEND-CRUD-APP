@@ -26,4 +26,4 @@ mongoose.connect("mongodb://127.0.0.1:27017")
                console.log("running at server 3000");
           });
      })
-     .catch(err => console.error("❌ Connection failed: Maa chuda ", err.message));
+     .catch(err => console.error("❌ Connection failed ", err.message));
